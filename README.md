@@ -76,6 +76,10 @@ jsonplaceholder.typicode.com(提供一些常用的接口)
 ## mock ##
 - https://easy-mock.com/login  
 - 接口访问时url地址要全， post类型时访问看图片
+ 
+ <img src="https://github.com/Tkwkrystal/vue-admin-template/blob/master/screenshot/post.png" alt="">
+
+
 
 
 ## 七牛云： ##
