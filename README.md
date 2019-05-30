@@ -42,24 +42,92 @@ npm run build
 npm run build --report
 ```
 
-## 注意事项：
+## vue.js官网： ##
+https://cn.vuejs.org
 
+## vue调试： ##
+chrome插件vue Devtools
+
+## UI 组件库： ##
+- https://github.com/ElemeFE/element
+- http://element.eleme.io/#/zh-CN/component/form
+
+## 移动UI 组件库： ##
+- mint
+- iview
+- vonic
+## app： ##
+Weex 是阿里的跨平台用户界面开发框架，Weex 的 JavaScript 框架运行时用的就是 Vue。在此之后，在 Weex 的帮助下，使用 Vue 语法开发的组件不仅仅可以运行在浏览器端，还能被用于开发 iOS 和 Android 上的原生应用。
+
+## vue中less： ##
+npm安装less-loader插件
+
+## 总结： ##
+vue + vuex+ axios + vue-router + webpack + es6 + less
+
+
+## 安装路由模块 ##
+- npm install vue-router --save-dev
+- npm install vue-resource --save-dev（http请求）
+
+## json接口 ##
+jsonplaceholder.typicode.com(提供一些常用的接口)
+
+## mock ##
+- https://easy-mock.com/login  
+- 接口访问时url地址要全， post类型时访问看图片
+
+
+## 七牛云： ##
+    融合cdn 域名 内容管理
+    gif动图七牛云地址：
+    http://pbn1z3d57.bkt.clouddn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif
+    (我自己的地址，现在不介意用七牛云，原因：现在给的测试域名只有一个月的试用时间！！！所以我改用阿里的，免费还功能强大)
+
+## 阿里云对象存储（图片） ##
+    https://oss.console.aliyun.com/bucket/oss-cn-shenzhen/vue-admin-template/object
+    （图像处理-访问管理 在图片url后+‘-logingif’）
+
+## 调试工具 vue-devtools  ## 
+- 最简单的：chrome扩展工具应用商店下载，然后
+- C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default\Extensions\nhdogjmejiglipccpnnnanhbledajbpd\4.1.5_0
+- manifest文件中："persistent": false, 改为true
+
+## vue-echarts  ## 
+http://npm.taobao.org/package/vue-echarts-v3
+github：https://github.com/xlsdg/vue-echarts-v3-demo
+
+## 注意事项： ##
 1. 空格和注释报错：build-webpack.base.conf.js中：const createLintingRule = () => ({})内容注释饥即可
 2. 接口业务流程：e.g：views/login/index.vue绑定方法---->store/modules/user.js中actions---->api/login.js
 
-之后还有一个小细节是如果你用了全局对象方式引入 vue，就不需要 手动 `Vue.use(Vuex）` ，它会自动挂载，具体见 [issue](https://github.com/vuejs/vuex/issues/731)
+## webpack ##
+执行脚本的命令有点麻烦，因此，我们可以利用 npm，把命令写在 package.json 中：
 
-最终你可以使用 `npm run build --report` 查看效果
+ 	"scripts": {
+    	"dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    	"start": "npm run dev",
+    	"build": "node build/build.js",
+    	"build:report": "npm_config_report=true npm run build",
+    	"lint": "eslint --ext .js,.vue src",
+    	"test": "npm run lint",
+    	"svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml"
+  	},
+基础知识网站：https://github.com/wallstreetcn/webpack-and-spa-guide
 
-调试工具 vue-devtools  最简单的：chrome扩展工具应用商店下载，然后
-C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default\Extensions\nhdogjmejiglipccpnnnanhbledajbpd\4.1.5_0manifest
-文件中："persistent": false, 改为true
+进阶：https://juejin.im/post/5b56909a518825195f499806
 
-空格和注释报错：build-webpack.base.conf.js中：const createLintingRule = () => ({})内容注释饥即可
+## build && config 文件夹说明 ##
+https://www.cnblogs.com/caideyipi/p/8496656.html
+    
 
-阿里云对象存储（图片）：https://oss.console.aliyun.com/bucket/oss-cn-shenzhen/vue-admin-template/object（图像处理-访问管理 在图片url后+‘-logingif’）
 
-build && config 文件夹说明:https://www.cnblogs.com/caideyipi/p/8496656.html
+## vue-route ##
+https://router.vuejs.org/zh/guide/advanced/scroll-behavior.html
+
+
+
+
 
 ## 作者
 
