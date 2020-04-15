@@ -1,6 +1,7 @@
 # vue-admin-template
 vue后台管理基础模板
 # vue-admin-template
+在线预览地址：https://tkwkrystal.github.io/vue-admin-template/dist
 
 > 这是一个 极简的 vue admin 管理后台 它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 ## 项目截图
