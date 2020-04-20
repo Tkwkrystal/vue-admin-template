@@ -143,6 +143,19 @@ export const asyncRouterMap = [
     ]
   },
 
+  {
+    path: '/qrcode',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'qrcode',
+        component: () => import('@/views/qrcode/index'),
+        meta: { title: 'qrcode', icon: 'form' }
+      }
+    ]
+  },
+
   { path: '*', redirect: '/404', hidden: true }
 ]
 
