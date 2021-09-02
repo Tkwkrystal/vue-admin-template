@@ -79,10 +79,18 @@ vue + vuex+ axios + vue-router + webpack + es6 + less
 jsonplaceholder.typicode.com(提供一些常用的接口)
 
 ## mock ##
+【弃用：easy-mock打不开了】
 - https://easy-mock.com/login  
 - 接口访问时url地址要全， post类型时访问看图片
  
  <img src="https://github.com/Tkwkrystal/vue-admin-template/blob/master/screenshot/post.png" alt="">
+
+ 【2021.9.2 更新版本】
+ 使用fastmock
+ https://www.fastmock.site/#/project/9dde0f90455e41b2d3b4374fdbc03fbd
+
+ - 接口配置 查看 sreenshot 里的 login/userinfo/tablelist 三张图片
+
 
 
 
@@ -142,3 +150,7 @@ https://router.vuejs.org/zh/guide/advanced/scroll-behavior.html
 
 by author tangkewei 
 2018.10.31
+
+
+## 如果fastmock 崩了
+自己修改 store/modules/user.js  Login & GetInfo 注释部分 就可以暂时已admin身份登陆进去
