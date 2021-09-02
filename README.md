@@ -5,15 +5,15 @@ vue后台管理基础模板
 
 > 这是一个 极简的 vue admin 管理后台 它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 ## 项目截图
-<img src="https://github.com/Tkwkrystal/vue-admin-template/blob/master/screenshot/login.jpg"/>
-<img src="https://github.com/Tkwkrystal/vue-admin-template/blob/master/screenshot/dashboard.jpg"/>
-<img src="https://github.com/Tkwkrystal/vue-admin-template/blob/master/screenshot/table.jpg"/>
+<img src="https://img-blog.csdnimg.cn/ceac63592b9d492a9e96faf91061207a.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAS3J5c3RhbC1Db29s,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center"/>
+<img src="https://img-blog.csdnimg.cn/bb7a36ef6a034bd7ae9b04f9877975c5.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAS3J5c3RhbC1Db29s,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center"/>
+<img src="https://img-blog.csdnimg.cn/3ad061d7763f4b1cbdb97f04fd653ebf.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAS3J5c3RhbC1Db29s,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center"/>
 
 ### 友情赞助
 如果本项目对你有较大的帮助，可以对我打赏，否则不需要，随便放个二维码，争取每天多喝一杯肥宅水！
 
 
-<img src="https://github.com/Tkwkrystal/wepy-mall/blob/master/screenshots/payme.jpg" width="400" height="400"/>
+<img src="https://img-blog.csdnimg.cn/b7aa87a2659c4c069d6b74ae79a2dac8.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAS3J5c3RhbC1Db29s,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" width="400" height="400"/>
 
 ## 相关项目
 
@@ -144,6 +144,8 @@ https://router.vuejs.org/zh/guide/advanced/scroll-behavior.html
 
 
 
+## 如果fastmock 崩了
+自己修改 store/modules/user.js  Login & GetInfo 注释部分 就可以暂时已admin身份登陆进去
 
 
 ## 作者
@@ -151,6 +153,9 @@ https://router.vuejs.org/zh/guide/advanced/scroll-behavior.html
 by author tangkewei 
 2018.10.31
 
+- [2021-09-02] 更新说明：
 
-## 如果fastmock 崩了
-自己修改 store/modules/user.js  Login & GetInfo 注释部分 就可以暂时已admin身份登陆进去
+1. easy-mock 改为 fast-mock。
+2. README.md 优化
+3. 预览图片的加载
+
